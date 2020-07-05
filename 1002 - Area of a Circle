@@ -1,0 +1,22 @@
+  
+/**
+1002 - Area of a Circle
+Code is written by Zahid Sarder
+Email: sourovsarder3@gmail.com
+**/
+
+#include <iostream>
+#include<iomanip>
+ 
+using namespace std;
+ 
+int main() {
+ 
+    double A, r, pi;
+    pi = 3.14159;
+    cin>>r;
+    A = pi * r * r;
+    cout<<fixed<<setprecision(4)<<"A="<<A<<endl;
+ 
+    return 0;
+}
