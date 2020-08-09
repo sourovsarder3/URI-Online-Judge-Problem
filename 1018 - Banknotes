@@ -1,0 +1,37 @@
+/**
+1018 - Banknotes
+Code is written by Zahid Sarder
+Email:: sourovsarder3@gmail.com
+**/
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    int hundred=0, fifty=0, twenty=0, ten=0, five=0, two=0, one=0, X, Y;
+    cin>>X;
+    Y = X;
+    hundred = X/100;
+    X = X%100;
+    fifty = X/50;
+    X = X%50;
+    twenty = X/20;
+    X = X%20;
+    ten = X/10;
+    X = X%10;
+    five = X/5;
+    X = X%5;
+    two = X/2;
+    X = X%2;
+    one = X;
+
+    cout<<Y<<endl;
+    cout<<hundred<<" nota(s) de R$ 100,00"<<endl;
+    cout<<fifty<<" nota(s) de R$ 50,00"<<endl;
+    cout<<twenty<<" nota(s) de R$ 20,00"<<endl;
+    cout<<ten<<" nota(s) de R$ 10,00"<<endl;
+    cout<<five<<" nota(s) de R$ 5,00"<<endl;
+    cout<<two<<" nota(s) de R$ 2,00"<<endl;
+    cout<<one<<" nota(s) de R$ 1,00"<<endl;
+    return 0;
+}
