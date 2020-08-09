@@ -1,0 +1,19 @@
+/**
+1010 - Simple Calculate
+Code is written by Zahid Sarder
+Email:: sourovsarder3@gmail.com
+**/
+
+#include<iostream>
+#include<iomanip>
+using namespace std;
+int main()
+{
+    int A1, B1, A2, B2;
+    double P1, P2, TOTAL;
+    cin>>A1>>B1>>P1;
+    cin>>A2>>B2>>P2;
+    TOTAL = B1*P1 + B2*P2;
+    cout<<fixed<<setprecision(2)<<"VALOR A PAGAR: R$ "<<TOTAL<<endl;
+    return 0;
+}
