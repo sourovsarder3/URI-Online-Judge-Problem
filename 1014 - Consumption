@@ -1,0 +1,19 @@
+/**
+1014 - Consumption
+Code is written by Zahid Sarder
+Email:: sourovsarder3@gmail.com
+**/
+
+#include<iostream>
+#include<iomanip>
+using namespace std;
+int main()
+{
+    int X;
+    double Y, C;
+    cin>>X>>Y;
+    C = X/Y;
+
+    cout<<fixed<<setprecision(3)<<C<<" km/l"<<endl;
+    return 0;
+}
