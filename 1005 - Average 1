@@ -1,0 +1,19 @@
+/**
+1005 - Average 1
+Code is written by Zahid Sarder
+Email:: sourovsarder3@gmail.com
+**/
+
+#include<iostream>
+#include<iomanip>
+using namespace std;
+int main()
+{
+    double A, B, MEDIA;
+    cin>>A>>B;
+    A = A*3.5;
+    B = B*7.5;
+    MEDIA = (A+B)/11;
+    cout<<fixed<<setprecision(5)<<"MEDIA = "<<MEDIA<<endl;
+    return 0;
+}
