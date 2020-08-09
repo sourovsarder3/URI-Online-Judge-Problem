@@ -1,0 +1,32 @@
+/**
+1013 - The Greatest
+Code is written by Zahid Sarder
+Email:: sourovsarder3@gmail.com
+**/
+
+
+#include<iostream>
+using namespace std;
+int greatest(int A, int B, int C)
+    {
+        if(A>B && A>C)
+        {
+            return A;
+        }
+        if(B>A && B>C)
+        {
+            return B;
+        }
+        if(C>A && C>B)
+        {
+            return C;
+        }
+    }
+int main()
+{
+    int A, B, C;
+    cin>>A>>B>>C;
+
+    cout<<greatest(A, B, C)<<" eh o maior"<<endl;
+    return 0;
+}
