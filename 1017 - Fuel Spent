@@ -1,0 +1,18 @@
+/**
+1017 - Fuel Spent
+Code is written by Zahid Sarder
+Email:: sourovsarder3@gmail.com
+**/
+
+#include<iostream>
+#include<iomanip>
+using namespace std;
+int main()
+{
+    int time, speed;
+    double fuel;
+    cin>>time>>speed;
+    fuel = (time*speed)/ 12.00;
+    cout<<fixed<<setprecision(3)<<fuel<<endl;
+    return 0;
+}
