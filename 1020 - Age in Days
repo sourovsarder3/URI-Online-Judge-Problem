@@ -1,0 +1,21 @@
+/**
+1020 - Age in Days
+Code is written by Zahid Sarder
+Email:: sourovsarder3@gmail.com
+**/
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    int years=0, months=0, days=0, age;
+    cin>>age;
+    years = age/365;
+    age = age%365;
+    months = age/30;
+    age = age%30;
+    days = age;
+
+    cout<<years<<" ano(s)\n"<<months<<" mes(es)\n"<<days<<" dia(s)\n";
+    return 0;
+}
