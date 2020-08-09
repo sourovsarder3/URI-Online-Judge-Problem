@@ -1,0 +1,26 @@
+/**
+1012 - Area
+Code is written by Zahid Sarder
+Email:: sourovsarder3@gmail.com
+**/
+
+#include<iostream>
+#include<iomanip>
+using namespace std;
+int main()
+{
+    double A, B, C, pi, triangle, circle, trapezium, square, rectangle;
+    pi = 3.14159;
+    cin>>A>>B>>C;
+    triangle = (1.0/2)*A*C;
+    circle = pi*C*C;
+    trapezium = (A+B)/2.0 * C;
+    square = B*B;
+    rectangle = A*B;
+    cout<<fixed<<setprecision(3)<<"TRIANGULO: "<<triangle<<endl;
+    cout<<fixed<<setprecision(3)<<"CIRCULO: "<<circle<<endl;
+    cout<<fixed<<setprecision(3)<<"TRAPEZIO: "<<trapezium<<endl;
+    cout<<fixed<<setprecision(3)<<"QUADRADO: "<<square<<endl;
+    cout<<fixed<<setprecision(3)<<"RETANGULO: "<<rectangle<<endl;
+    return 0;
+}
