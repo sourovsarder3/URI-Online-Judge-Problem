@@ -1,0 +1,17 @@
+/**
+1016 - Distance
+Code is written by Zahid Sarder
+Email:: sourovsarder3@gmail.com
+**/
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    int X, time;
+    cin>>X;
+    time = X*2;
+    cout<<time<<" minutos"<<endl;
+    return 0;
+}
+
