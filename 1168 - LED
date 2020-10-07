@@ -1,0 +1,51 @@
+/**
+1168 - LED
+Code is written by Zahid Sarder
+Email:: sourovsarder3@gmail.com
+**/
+
+#include<bits/stdc++.h>
+#include<string>
+using namespace std;
+#define endl '\n'
+
+int main()
+{
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+    cout.setf(ios::fixed,ios::floatfield);
+
+    int tc;
+    cin>>tc;
+    while(tc--)
+    {
+        string s;
+        int sum = 0;
+        cin>>s;
+        for(int i=0; i<s.size(); i++)
+        {
+            if(s[i] == '0')
+                sum = sum + 6;
+            else if (s[i]=='1')
+                sum = sum + 2;
+            else if (s[i]=='2')
+                sum = sum + 5;
+            else if (s[i]=='3')
+                sum = sum + 5;
+            else if (s[i]=='4')
+                sum = sum + 4;
+            else if (s[i]=='5')
+                sum = sum + 5;
+            else if (s[i]=='6')
+                sum = sum + 6;
+            else if (s[i]=='7')
+                sum = sum + 3;
+            else if (s[i]=='8')
+                sum = sum + 7;
+            else if (s[i]=='9')
+                sum = sum + 6;
+        }
+        cout<<sum<<" leds"<<endl;
+    }
+    return 0;
+}
